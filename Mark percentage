@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main() {
+    char name[50];
+    int mark1, mark2, mark3, mark4, mark5;
+    int total;
+    float average;
+    printf("Enter Student Name: ");
+    scanf("%s", name);
+    printf("Enter Mark 1: ");
+    scanf("%d", &mark1);
+    printf("Enter Mark 2: ");
+    scanf("%d", &mark2);
+    printf("Enter Mark 3: ");
+    scanf("%d", &mark3);
+    printf("Enter Mark 4: ");
+    scanf("%d", &mark4);
+    printf("Enter Mark 5: ");
+    scanf("%d", &mark5);
+    total = mark1 + mark2 + mark3 + mark4 + mark5;
+    average = total / 5.0;
+    printf("\nStudent Name : %s", name);
+    printf("\nTotal Marks  : %d", total);
+    printf("\nAverage      : %.2f", average);
+    return 0;
+}
