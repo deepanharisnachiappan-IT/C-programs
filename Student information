@@ -1,0 +1,50 @@
+#include <stdio.h>
+int main()
+{
+    char name[50];
+    int age;
+    long long mobile;
+    char email[100];
+    char department[50];
+    int regno;
+    float marks;
+    char grade;
+    printf("Enter Student Name      : ");
+    scanf(" %[^\n]", name);
+    printf("Enter Age               : ");
+    scanf("%d", &age);
+    printf("Enter Register Number   : ");
+    scanf("%d", &regno);
+    printf("Enter Mobile Number     : ");
+    scanf("%lld", &mobile);
+    printf("Enter Email ID          : ");
+    scanf("%s", email);
+    printf("Enter Department        : ");
+    scanf(" %[^\n]", department);
+    printf("Enter Marks             : ");
+    scanf("%f", &marks);
+    /* Grade Calculation */
+    if (marks >= 90)
+        grade = 'A';
+    else if (marks >= 75)
+        grade = 'B';
+    else if (marks >= 60)
+        grade = 'C';
+    else if (marks >= 50)
+        grade = 'D';
+    else
+        grade = 'F';
+    printf("\n=========================================\n");
+    printf("           STUDENT INFORMATION\n");
+    printf("=========================================\n");
+    printf("Name            : %s\n", name);
+    printf("Age             : %d\n", age);
+    printf("Register No     : %d\n", regno);
+    printf("Mobile Number   : %lld\n", mobile);
+    printf("Email ID        : %s\n", email);
+    printf("Department      : %s\n", department);
+    printf("Marks           : %.2f\n", marks);
+    printf("Grade           : %c\n", grade);
+    printf("=========================================\n");
+    return 0;
+}
