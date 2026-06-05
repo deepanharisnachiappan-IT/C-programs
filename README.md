@@ -33,9 +33,8 @@ Hello! I'm Deepan, a B.Tech Information Technology student passionate about prog
 ## Tools Used
 
 * Visual Studio
-* GitHub
 * C Compiler
 
 ## Contact
 
-GitHub Profile: Add your GitHub profile link here.
+GitHub Profile: https://github.com/deepanharisnachiappan-IT/
