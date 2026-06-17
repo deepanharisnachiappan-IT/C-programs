@@ -1,0 +1,41 @@
+#include<stdio.h>
+int add(int a, int b)
+{
+    return a+b;
+}
+int sub(int a, int b)
+{
+    return a-b;
+}
+int multi(int a, int b)
+{
+    return a*b;
+}
+int divi (int a, int b)
+{
+    return a/b;
+}
+int main()
+{
+
+    int a=10;
+    int b=5;
+    int c;
+    printf("Choose:\n");
+    printf("1.Add\n");
+    printf("2.Subract\n");
+    printf("3.Multiplication\n");
+    printf("4.Division\n");
+    scanf("%d",&c);
+    if(c==1)
+        printf("Answer:%d",(a+b));
+    else if (c==2)
+         printf("Answer:%d",(a-b));
+    else if (c==3)
+         printf("Answer:%d",(a*b));
+         else if (c==4)
+         printf("Answer:%d",(a/b));
+         else
+            printf("Invalid input !");
+         return 0;
+}
