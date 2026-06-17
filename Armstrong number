@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    int b;
+    int c;
+    int d;
+    int sum;
+    printf("Enter the Number:");
+    scanf("%d",&b,&c,&d);
+    a=sum;
+    sum=b*b*b+c*c*c+d*d*d;
+    if(sum==a)
+    {
+        printf("The given number is an Armstrong Number");
+    }
+    else
+    {
+        printf("The given number is not   an Armstrong Number");
+    }
+    return 0;
+}
